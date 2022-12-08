@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Таблица Менделеева</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="table">Если не знаете что за элемент, просто нажмите на него!</h1>
+    </header>
+    <main>
+        <table>
+            <caption>
+                Интерактивная переодическая таблица Менделеева
+            </caption>
+            <tr>
+                <th>Группы<br>\<br>Периоды</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>11</th>
+                <th>12</th>
+                <th>13</th>
+                <th>14</th>
+                <th>15</th>
+                <th>16</th>
+                <th>17</th>
+                <th>18</th>
+            </tr>
+            <tr>
+                <td class="textright">1</td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B4"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">H <br>
+                            Водород</button></form>
+                </td>
+                <td colspan="16"></td>
+                <td class="purple action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">He <br> Гелий</button></form>
+                </td>
+            </tr>
+            <tr>
+                <td class="textright">2</td>
+                <td class="green action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Li <br> Литий</button></form>
+                </td>
+                <td class="grey action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Be <br>
+                            Бериллий</button></form>
+                </td>
+                <td colspan="10"></td>
+                <td class="orange action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80_(%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82)"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">B <br> Бор</button>
+                    </form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A3%D0%B3%D0%BB%D0%B5%D1%80%D0%BE%D0%B4"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">C <br>
+                            Углерод</button></form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%90%D0%B7%D0%BE%D1%82" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">N <br> Азот</button></form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D1%80%D0%BE%D0%B4"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">O <br>
+                            Кислород</button></form>
+                </td>
+                <td class="red action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A4%D1%82%D0%BE%D1%80" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">F <br> Фтор</button></form>
+                </td>
+                <td class="purple action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BE%D0%BD" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Ne <br> Неон</button></form>
+                </td>
+            </tr>
+            <tr>
+                <td class="textright">3</td>
+                <td class="green action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%80%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Na <br> Натрий</button></form>
+                </td>
+                <td class="grey action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Mg <br> Магний</button></form>
+                </td>
+                <td colspan="10"></td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Al <br>
+                            Алюминий</button></form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B5%D0%BC%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Si <br>
+                            Кремний</button></form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%81%D1%84%D0%BE%D1%80" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">P <br> Фосфор</button></form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B0" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">S <br> Сера</button></form>
+                </td>
+                <td class="red action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A5%D0%BB%D0%BE%D1%80" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">CL <br> Хлор</button></form>
+                </td>
+                <td class="purple action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B3%D0%BE%D0%BD" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Ar <br> Аргон</button></form>
+                </td>
+            </tr>
+            <tr>
+                <td class="textright">4</td>
+                <td class="green action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">K <br> Калий</button></form>
+                </td>
+                <td class="grey action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8C%D1%86%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ca <br>
+                            Кальций</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%BD%D0%B4%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Sc <br>
+                            Скандий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D1%82%D0%B0%D0%BD_(%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82)"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ti <br>
+                            Титан</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">V <br>
+                            Ванадий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A5%D1%80%D0%BE%D0%BC" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Cr <br> Хром</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D0%BD%D0%B5%D1%86"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Mn <br>
+                            Марганец</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BE" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Fe <br> Железо</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D1%82"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Co <br>
+                            Кобальт</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%B5%D0%BB%D1%8C" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Ni <br> Никель</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D1%8C" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Cu <br> Медь</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D0%BD%D0%BA" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Zn <br> Цинк</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%BB%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Ga <br> Галлий</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ge <br>
+                            Германий</button></form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9C%D1%8B%D1%88%D1%8C%D1%8F%D0%BA" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">As <br> Мышьяк</button></form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BB%D0%B5%D0%BD" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Se <br> Селен</button></form>
+                </td>
+                <td class="red action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%BC" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Br <br> Бром</button></form>
+                </td>
+                <td class="purple action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%BD"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Kr <br>
+                            Криптон</button></form>
+                </td>
+            </tr>
+            <tr>
+                <td class="textright">5</td>
+                <td class="green action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D0%B1%D0%B8%D0%B4%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Rb <br>
+                            Рубидий</button></form>
+                </td>
+                <td class="grey action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%BD%D1%86%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Sr <br>
+                            Стронций</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%98%D1%82%D1%82%D1%80%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Y <br> Иттрий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D1%80%D0%BA%D0%BE%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Zr <br>
+                            Цирконий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BE%D0%B1%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Nb <br> Ниобий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BB%D0%B8%D0%B1%D0%B4%D0%B5%D0%BD"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Mo <br>
+                            Молибден</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%B5%D1%86%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Tc <br>
+                            Технеций</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%82%D0%B5%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ru <br>
+                            Рутений</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B4%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Rh <br> Родий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%BB%D0%B0%D0%B4%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Pd <br>
+                            Палладий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D0%BE"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ag <br>
+                            Серебро</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D0%BC%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Cd <br> Кадмий</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B4%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">In <br> Индий</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D0%BE%D0%B2%D0%BE" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Sn <br> Олово</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D1%80%D1%8C%D0%BC%D0%B0" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Sb <br> Сурьма</button></form>
+                </td>
+                <td class="orange action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D0%BB%D1%83%D1%80" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Te <br> Теллур</button></form>
+                </td>
+                <td class="red action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%98%D0%BE%D0%B4" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">I <br> Йод</button></form>
+                </td>
+                <td class="purple action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D1%81%D0%B5%D0%BD%D0%BE%D0%BD" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Xe <br> Ксенон</button></form>
+                </td>
+            </tr>
+            <tr>
+                <td class="textright">6</td>
+                <td class="green action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%B7%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Cs <br> Цезий</button></form>
+                </td>
+                <td class="grey action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Ba <br> Барий</button></form>
+                </td>
+                <td class="yellow"></td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%84%D0%BD%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Hf <br> Гафний</button></form>
+                </td>
+                <td class="biruza action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BD%D1%82%D0%B0%D0%BB_(%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82)"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ta <br>
+                            Тантал</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D1%8C%D1%84%D1%80%D0%B0%D0%BC"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">W <br>
+                            Вольфрам</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BD%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Re <br> Рений</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BC%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Os <br> Осмий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%98%D1%80%D0%B8%D0%B4%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Ir <br> Иридий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D0%B0"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Pt <br>
+                            Платина</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Au <br> Золото</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A0%D1%82%D1%83%D1%82%D1%8C" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Hg <br> Ртуть</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BB%D0%BB%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">TL <br> Талий</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B8%D0%BD%D0%B5%D1%86" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Pb <br> Свинец</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%81%D0%BC%D1%83%D1%82" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Bi <br> Висмут</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%BE%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Po <br>
+                            Полоний</button></form>
+                </td>
+                <td class="red action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%90%D1%81%D1%82%D0%B0%D1%82" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">At <br> Астат</button></form>
+                </td>
+                <td class="purple action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%BE%D0%BD" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Rn <br> Радон</button></form>
+                </td>
+            </tr>
+            <tr>
+                <td class="textright">7</td>
+                <td class="green action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Fr <br>
+                            Франций</button></form>
+                </td>
+                <td class="grey action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Ra <br> Радий</button></form>
+                </td>
+                <td class="brawngreen"></td>
+                <td class="biruza action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D1%84%D0%BE%D1%80%D0%B4%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Rf <br>
+                            Резерфордий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%94%D1%83%D0%B1%D0%BD%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Db <br> Дубний</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%B1%D0%BE%D1%80%D0%B3%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Sg <br>
+                            Сиборгий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Bh <br> Борий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%81%D1%81%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Hs <br> Хассий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Mt <br>
+                            Мейтнерий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D1%80%D0%BC%D1%88%D1%82%D0%B0%D0%B4%D1%82%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ds <br>
+                            Дармштадтий</button></form>
+                </td>
+                <td class="biruza action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BD%D1%82%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Rg <br>
+                            Рентгений</button></form>
+                </td>
+                <td class="biruza action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BF%D0%B5%D1%80%D0%BD%D0%B8%D1%86%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Cn <br>
+                            Коперниций</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D1%85%D0%BE%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Nh <br>
+                            Нихоний</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A4%D0%BB%D0%B5%D1%80%D0%BE%D0%B2%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">FL <br>
+                            Флеровий</button></form>
+                </td>
+                <td class="blue action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Mc <br>
+                            Московий</button></form>
+                </td>
+                <td class="blue action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%B2%D0%B5%D1%80%D0%BC%D0%BE%D1%80%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Lv <br>
+                            Ливерморий</button></form>
+                </td>
+                <td class="red action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BD%D0%BD%D0%B5%D1%81%D1%81%D0%B8%D0%BD"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ts <br>
+                            Теннессин</button></form>
+                </td>
+                <td class="purple action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9E%D0%B3%D0%B0%D0%BD%D0%B5%D1%81%D0%BE%D0%BD"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Og <br>
+                            Оганесон</button></form>
+                </td>
+            </tr>
+            <tr>
+                <td class="textright" colspan="3">Латаниды</td>
+                <td class="yellow container border_left"></td>
+                <td class="yellow action actiniy">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BD%D1%82%D0%B0%D0%BD" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">La <br> Лантан</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D1%80%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Ce <br> Церий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B0%D0%B7%D0%B5%D0%BE%D0%B4%D0%B8%D0%BC"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Pr <br>
+                            Празеодим</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BE%D0%B4%D0%B8%D0%BC" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Nd <br> Неодим</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D0%B5%D1%82%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Pm <br>
+                            Прометий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Sm <br>
+                            Самарий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D1%80%D0%BE%D0%BF%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Eu <br>
+                            Европий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Gd <br>
+                            Гадолиний</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D0%B1%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Td <br> Тербий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BF%D1%80%D0%BE%D0%B7%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Dy <br>
+                            Диспрозий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%BB%D1%8C%D0%BC%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ho <br>
+                            Гольмий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%AD%D1%80%D0%B1%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Er <br> Эрбий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D0%BB%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Tm <br> Тулий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%98%D1%82%D1%82%D0%B5%D1%80%D0%B1%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Yb <br>
+                            Иттербий</button></form>
+                </td>
+                <td class="yellow action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9B%D1%8E%D1%82%D0%B5%D1%86%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Lu <br>
+                            Лютеций</button></form>
+                </td>
+            </tr>
+            <tr>
+                <td class="textright" colspan="3">Актиниды</td>
+                <td class="darkgreen container border_left2"></td>
+                <td class="darkgreen action actiniy">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%90%D0%BA%D1%82%D0%B8%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Ac <br>
+                            Актиний</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D1%80%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Th <br> Торий</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%82%D0%B0%D0%BA%D1%82%D0%B8%D0%BD%D0%B8%D0%B9#:~:text=%D0%9F%D1%80%D0%BE%D1%82%D0%B0%D0%BA%D1%82%D0%B8%CC%81%D0%BD%D0%B8%D0%B9%20(%D1%85%D0%B8%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%20%E2%80%94%20Pa%2C,%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B9%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D1%85%D0%B8%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85%20%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%94."
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Pa <br>
+                            Протактиний</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A3%D1%80%D0%B0%D0%BD" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">U <br> Уран</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BF%D1%82%D1%83%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Np <br>
+                            Нептуний</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D1%83%D1%82%D0%BE%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Pu <br>
+                            Плутоний</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D1%86%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Am <br>
+                            Америций</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9A%D1%8E%D1%80%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Cm <br> Кюрий</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%BA%D0%BB%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Bk <br>
+                            Берклий</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Cf <br>
+                            Калифорний</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B8%D1%84%D0%BE%D1%80%D0%BD%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Es <br>
+                            Эйнштейний</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D1%80%D0%BC%D0%B8%D0%B9" target="_blank"
+                        rel="nofollow noopener noreferrer"><button class="element">Fm <br> Фермий</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form
+                        action="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%BD%D0%B4%D0%B5%D0%BB%D0%B5%D0%B2%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Md <br>
+                            Менделевий</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D0%B1%D0%B5%D0%BB%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">No <br>
+                            Нобелий</button></form>
+                </td>
+                <td class="darkgreen action">
+                    <form action="https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D1%83%D1%80%D0%B5%D0%BD%D1%81%D0%B8%D0%B9"
+                        target="_blank" rel="nofollow noopener noreferrer"><button class="element">Lr <br>
+                            Лоуренсий</button></form>
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer class="footer">
+        <p class="text-footer">Информация использовалась с сайта: <a href="https://ru.wikipedia.org" target="_blank"
+                rel="nofollow noopener noreferrer">https://ru.wikipedia.org</a></p>
+    </footer>
+</body>
+
+</html>

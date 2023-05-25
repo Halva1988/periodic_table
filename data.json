@@ -1,0 +1,618 @@
+[
+  {
+    "title": "H",
+    "sequenceNumber": "1",
+    "name": "Водород",
+    "atomicWeight": "1.00794",
+    "link": "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B4%D0%BE%D1%80%D0%BE%D0%B4"
+  },
+  {
+    "title": "He",
+    "sequenceNumber": "2",
+    "name": "Гелий",
+    "atomicWeight": "4.002602",
+    "link": "https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BB%D0%B8%D0%B9"
+  },
+  {
+    "title": "Li",
+    "sequenceNumber": "3",
+    "name": "Литий",
+    "atomicWeight": "6.941",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D0%B8%D0%B9"
+  },
+  {
+    "title": "Be",
+    "sequenceNumber": "4",
+    "name": "Бериллий",
+    "atomicWeight": "9.0122",
+    "link": "https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%80%D0%B8%D0%BB%D0%BB%D0%B8%D0%B9"
+  },
+  {
+    "title": "B",
+    "sequenceNumber": "5",
+    "name": "Бор",
+    "atomicWeight": "10.811",
+    "link": "https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80_(%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82)"
+  },
+  {
+    "title": "C",
+    "sequenceNumber": "6",
+    "name": "Углерод",
+    "atomicWeight": "12.011",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A3%D0%B3%D0%BB%D0%B5%D1%80%D0%BE%D0%B4"
+  },
+  {
+    "title": "N",
+    "sequenceNumber": "7",
+    "name": "Азот",
+    "atomicWeight": "14.007",
+    "link": "https://ru.wikipedia.org/wiki/%D0%90%D0%B7%D0%BE%D1%82"
+  },
+  {
+    "title": "O",
+    "sequenceNumber": "8",
+    "name": "Кислород",
+    "atomicWeight": "15.999",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%81%D0%BB%D0%BE%D1%80%D0%BE%D0%B4"
+  },
+  {
+    "title": "F",
+    "sequenceNumber": "9",
+    "name": "Фтор",
+    "atomicWeight": "18.998",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A4%D1%82%D0%BE%D1%80"
+  },
+  {
+    "title": "Ne",
+    "sequenceNumber": "10",
+    "name": "Неон",
+    "atomicWeight": "20.179",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BE%D0%BD"
+  },
+  {
+    "title": "Na",
+    "sequenceNumber": "11",
+    "name": "Натрий",
+    "atomicWeight": "22.99",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Mg",
+    "sequenceNumber": "12",
+    "name": "Магний",
+    "atomicWeight": "24.305",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "Al",
+    "sequenceNumber": "13",
+    "name": "Алюминий",
+    "atomicWeight": "26.9815",
+    "link": "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "Si",
+    "sequenceNumber": "14",
+    "name": "Кремний",
+    "atomicWeight": "28.086",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B5%D0%BC%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "P",
+    "sequenceNumber": "15",
+    "name": "Фосфор",
+    "atomicWeight": "30.974",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%81%D1%84%D0%BE%D1%80"
+  },
+  {
+    "title": "S",
+    "sequenceNumber": "16",
+    "name": "Сера",
+    "atomicWeight": "32.066",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B0"
+  },
+  {
+    "title": "Cl",
+    "sequenceNumber": "17",
+    "name": "Хлор",
+    "atomicWeight": "35.453",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A5%D0%BB%D0%BE%D1%80"
+  },
+  {
+    "title": "Ar",
+    "sequenceNumber": "18",
+    "name": "Аргон",
+    "atomicWeight": "39.948",
+    "link": "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B3%D0%BE%D0%BD"
+  },
+  {
+    "title": "K",
+    "sequenceNumber": "19",
+    "name": "Калий",
+    "atomicWeight": "39.098",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ca",
+    "sequenceNumber": "20",
+    "name": "Кальций",
+    "atomicWeight": "40.08",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8C%D1%86%D0%B8%D0%B9"
+  },
+  {
+    "title": "Sc",
+    "sequenceNumber": "21",
+    "name": "Скандий",
+    "atomicWeight": "44.956",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%B0%D0%BD%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ti",
+    "sequenceNumber": "22",
+    "name": "Титан",
+    "atomicWeight": "47.90",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D1%82%D0%B0%D0%BD_(%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82)"
+  },
+  {
+    "title": "V",
+    "sequenceNumber": "23",
+    "name": "Ванадий",
+    "atomicWeight": "50.941",
+    "link": "https://ru.wikipedia.org/wiki/%D0%92%D0%B0%D0%BD%D0%B0%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Cr",
+    "sequenceNumber": "24",
+    "name": "Хром",
+    "atomicWeight": "51.996",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A5%D1%80%D0%BE%D0%BC"
+  },
+  {
+    "title": "Mn",
+    "sequenceNumber": "25",
+    "name": "Марганец",
+    "atomicWeight": "54.938",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D0%B3%D0%B0%D0%BD%D0%B5%D1%86"
+  },
+  {
+    "title": "Fe",
+    "sequenceNumber": "26",
+    "name": "Железо",
+    "atomicWeight": "55.847",
+    "link": "https://ru.wikipedia.org/wiki/%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BE"
+  },
+  {
+    "title": "Co",
+    "sequenceNumber": "27",
+    "name": "Кобальт",
+    "atomicWeight": "58.933",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D1%82"
+  },
+  {
+    "title": "Ni",
+    "sequenceNumber": "28",
+    "name": "Никель",
+    "atomicWeight": "58.70",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BA%D0%B5%D0%BB%D1%8C"
+  },
+  {
+    "title": "Cu",
+    "sequenceNumber": "29",
+    "name": "Медь",
+    "atomicWeight": "63.546",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D1%8C"
+  },
+  {
+    "title": "Zn",
+    "sequenceNumber": "30",
+    "name": "Цинк",
+    "atomicWeight": "65.39",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D0%BD%D0%BA"
+  },
+  {
+    "title": "Ga",
+    "sequenceNumber": "31",
+    "name": "Галлий",
+    "atomicWeight": "69.72",
+    "link": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%BB%D0%BB%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ge",
+    "sequenceNumber": "32",
+    "name": "Германий",
+    "atomicWeight": "72.59",
+    "link": "https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "As",
+    "sequenceNumber": "33",
+    "name": "Мышьяк",
+    "atomicWeight": "74.992",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D1%8B%D1%88%D1%8C%D1%8F%D0%BA"
+  },
+  {
+    "title": "Se",
+    "sequenceNumber": "34",
+    "name": "Селен",
+    "atomicWeight": "78.96",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D0%BB%D0%B5%D0%BD"
+  },
+  {
+    "title": "Br",
+    "sequenceNumber": "35",
+    "name": "Бром",
+    "atomicWeight": "79.904",
+    "link": "https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%BE%D0%BC"
+  },
+  {
+    "title": "Kr",
+    "sequenceNumber": "36",
+    "name": "Криптон",
+    "atomicWeight": "83.80",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%BD"
+  },
+  {
+    "title": "Rb",
+    "sequenceNumber": "37",
+    "name": "Рубидий",
+    "atomicWeight": "85.468",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D0%B1%D0%B8%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Sr",
+    "sequenceNumber": "38",
+    "name": "Стронций",
+    "atomicWeight": "87.62",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%BD%D1%86%D0%B8%D0%B9"
+  },
+  {
+    "title": "Y",
+    "sequenceNumber": "39",
+    "name": "Иттрий",
+    "atomicWeight": "88.906",
+    "link": "https://ru.wikipedia.org/wiki/%D0%98%D1%82%D1%82%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Zr",
+    "sequenceNumber": "40",
+    "name": "Цирконий",
+    "atomicWeight": "91.22",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D1%80%D0%BA%D0%BE%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "Nb",
+    "sequenceNumber": "41",
+    "name": "Ниобий",
+    "atomicWeight": "92.906",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9D%D0%B8%D0%BE%D0%B1%D0%B8%D0%B9"
+  },
+  {
+    "title": "Mo",
+    "sequenceNumber": "42",
+    "name": "Молибден",
+    "atomicWeight": "95.94",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BB%D0%B8%D0%B1%D0%B4%D0%B5%D0%BD"
+  },
+  {
+    "title": "Tc",
+    "sequenceNumber": "43",
+    "name": "Технеций",
+    "atomicWeight": "97.91",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%85%D0%BD%D0%B5%D1%86%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ru",
+    "sequenceNumber": "44",
+    "name": "Рутений",
+    "atomicWeight": "101.07",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A0%D1%83%D1%82%D0%B5%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "Rh",
+    "sequenceNumber": "45",
+    "name": "Родий",
+    "atomicWeight": "102.906",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Pd",
+    "sequenceNumber": "46",
+    "name": "Палладий",
+    "atomicWeight": "106.4",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%BB%D0%B0%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ag",
+    "sequenceNumber": "47",
+    "name": "Серебро",
+    "atomicWeight": "107.868",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D0%BE"
+  },
+  {
+    "title": "Cd",
+    "sequenceNumber": "48",
+    "name": "Кадмий",
+    "atomicWeight": "112.41",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B4%D0%BC%D0%B8%D0%B9"
+  },
+  {
+    "title": "In",
+    "sequenceNumber": "49",
+    "name": "Индий",
+    "atomicWeight": "114.82",
+    "link": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Sn",
+    "sequenceNumber": "50",
+    "name": "Олово",
+    "atomicWeight": "118.71",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9E%D0%BB%D0%BE%D0%B2%D0%BE"
+  },
+  {
+    "title": "Sb",
+    "sequenceNumber": "51",
+    "name": "Сурьма",
+    "atomicWeight": "121.75",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D1%80%D1%8C%D0%BC%D0%B0"
+  },
+  {
+    "title": "Te",
+    "sequenceNumber": "52",
+    "name": "Теллур",
+    "atomicWeight": "127.60",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D0%BB%D1%83%D1%80"
+  },
+  {
+    "title": "I",
+    "sequenceNumber": "53",
+    "name": "Йод",
+    "atomicWeight": "126.9045",
+    "link": "https://ru.wikipedia.org/wiki/%D0%98%D0%BE%D0%B4"
+  },
+  {
+    "title": "Xe",
+    "sequenceNumber": "54",
+    "name": "Ксенон",
+    "atomicWeight": "131.29",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9A%D1%81%D0%B5%D0%BD%D0%BE%D0%BD"
+  },
+  {
+    "title": "Cs",
+    "sequenceNumber": "55",
+    "name": "Цезий",
+    "atomicWeight": "132.905",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%B7%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ba",
+    "sequenceNumber": "56",
+    "name": "Барий",
+    "atomicWeight": "137.33",
+    "link": "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Hf",
+    "sequenceNumber": "72",
+    "name": "Гафний",
+    "atomicWeight": "178.49",
+    "link": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%84%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ta",
+    "sequenceNumber": "73",
+    "name": "Тантал",
+    "atomicWeight": "180.9479",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BD%D1%82%D0%B0%D0%BB_(%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82)"
+  },
+  {
+    "title": "W",
+    "sequenceNumber": "74",
+    "name": "Вольфрам",
+    "atomicWeight": "183.85",
+    "link": "https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D1%8C%D1%84%D1%80%D0%B0%D0%BC"
+  },
+  {
+    "title": "Re",
+    "sequenceNumber": "75",
+    "name": "Рений",
+    "atomicWeight": "186.207",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "Os",
+    "sequenceNumber": "76",
+    "name": "Осмий",
+    "atomicWeight": "190.2",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9E%D1%81%D0%BC%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ir",
+    "sequenceNumber": "77",
+    "name": "Иридий",
+    "atomicWeight": "192.22",
+    "link": "https://ru.wikipedia.org/wiki/%D0%98%D1%80%D0%B8%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Pt",
+    "sequenceNumber": "78",
+    "name": "Платина",
+    "atomicWeight": "195.08",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B8%D0%BD%D0%B0"
+  },
+  {
+    "title": "Au",
+    "sequenceNumber": "79",
+    "name": "Золото",
+    "atomicWeight": "196.967",
+    "link": "https://ru.wikipedia.org/wiki/%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%BE"
+  },
+  {
+    "title": "Hg",
+    "sequenceNumber": "80",
+    "name": "Ртуть",
+    "atomicWeight": "200.59",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A0%D1%82%D1%83%D1%82%D1%8C"
+  },
+  {
+    "title": "TL",
+    "sequenceNumber": "81",
+    "name": "Талий",
+    "atomicWeight": "204.38",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%BB%D0%BB%D0%B8%D0%B9"
+  },
+  {
+    "title": "Pb",
+    "sequenceNumber": "82",
+    "name": "Свинец",
+    "atomicWeight": "207.19",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B8%D0%BD%D0%B5%D1%86"
+  },
+  {
+    "title": "Bi",
+    "sequenceNumber": "83",
+    "name": "Висмут",
+    "atomicWeight": "208.980",
+    "link": "https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%81%D0%BC%D1%83%D1%82"
+  },
+  {
+    "title": "Po",
+    "sequenceNumber": "84",
+    "name": "Полоний",
+    "atomicWeight": "209.98",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%BE%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "At",
+    "sequenceNumber": "85",
+    "name": "Астат",
+    "atomicWeight": "209.99",
+    "link": "https://ru.wikipedia.org/wiki/%D0%90%D1%81%D1%82%D0%B0%D1%82"
+  },
+  {
+    "title": "Rn",
+    "sequenceNumber": "86",
+    "name": "Радон",
+    "atomicWeight": "222",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%BE%D0%BD"
+  },
+  {
+    "title": "Fr",
+    "sequenceNumber": "87",
+    "name": "Франций",
+    "atomicWeight": "223",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ra",
+    "sequenceNumber": "88",
+    "name": "Радий",
+    "atomicWeight": "226",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ac",
+    "sequenceNumber": "89",
+    "name": "Актиний",
+    "atomicWeight": "227",
+    "link": "https://ru.wikipedia.org/wiki/%D0%90%D0%BA%D1%82%D0%B8%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "Rf",
+    "sequenceNumber": "104",
+    "name": "Резерфордий",
+    "atomicWeight": "261",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D1%84%D0%BE%D1%80%D0%B4%D0%B8%D0%B9"
+  },
+  {
+    "title": "Db",
+    "sequenceNumber": "105",
+    "name": "Дубний",
+    "atomicWeight": "262",
+    "link": "https://ru.wikipedia.org/wiki/%D0%94%D1%83%D0%B1%D0%BD%D0%B8%D0%B9"
+  },
+  {
+    "title": "Sg",
+    "sequenceNumber": "106",
+    "name": "Сиборгий",
+    "atomicWeight": "263",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%B1%D0%BE%D1%80%D0%B3%D0%B8%D0%B9"
+  },
+  {
+    "title": "Bh",
+    "sequenceNumber": "107",
+    "name": "Борий",
+    "atomicWeight": "262",
+    "link": "https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Hs",
+    "sequenceNumber": "108",
+    "name": "Хассий",
+    "atomicWeight": "265",
+    "link": "https://ru.wikipedia.org/wiki/%D0%A5%D0%B0%D1%81%D1%81%D0%B8%D0%B9"
+  },
+  {
+    "title": "Mt",
+    "sequenceNumber": "109",
+    "name": "Мейтнерий",
+    "atomicWeight": "266",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ds",
+    "sequenceNumber": "110",
+    "name": "Дармштадтий",
+    "atomicWeight": "281",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Rg",
+    "sequenceNumber": "111",
+    "name": "Рентгений",
+    "atomicWeight": "282",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Cn",
+    "sequenceNumber": "112",
+    "name": "Коперниций",
+    "atomicWeight": "285",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Nh",
+    "sequenceNumber": "113",
+    "name": "Нихоний",
+    "atomicWeight": "286",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Fl",
+    "sequenceNumber": "114",
+    "name": "Флеровий",
+    "atomicWeight": "289",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Mc",
+    "sequenceNumber": "115",
+    "name": "Московий",
+    "atomicWeight": "290",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Lv",
+    "sequenceNumber": "116",
+    "name": "Ливерморий",
+    "atomicWeight": "293",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  },
+  {
+    "title": "Ts",
+    "sequenceNumber": "117",
+    "name": "Теннессин",
+    "atomicWeight": "294",
+    "link": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B9%D1%82%D0%BD%D0%B5%D1%80%D0%B8%D0%B9"
+  }
+]
